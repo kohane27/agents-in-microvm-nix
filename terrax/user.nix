@@ -8,7 +8,7 @@
     extraGroups = [ "wheel" ];
     shell = pkgs.zsh;
     openssh.authorizedKeys.keys = [
-      "ssh-ed25519 *** username@snowfire"
+      "ssh-ed25519 *** microvm-user"
     ];
   };
 }
